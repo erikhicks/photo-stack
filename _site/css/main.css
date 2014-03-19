@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.pbt-photos {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.pbt-photos ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 450px;
+}
+
+.pbt-photos li {
+	display: inline-block;
+	border: 1px solid #000;
+	padding: 10px;
+	background-color: #fff;
+	top: 0;
+	position: absolute;
+}
+
+.pbt-photos img {
+	width: 350px;
+	height: 300px;
+}
